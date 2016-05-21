@@ -1,0 +1,22 @@
+# Game-of-Life---Perl
+Gra w życie napisana w Perlu
+Gra działa w trybie tekstowym
+
+Grę można uruchomić bez parametrów lub z parametrami
+
+Grę można uruchomić z parametrami:
+./gra_life.pl ścieżka-do-pliku-z-planszą rozmiar-planszy odstep-czasowy [znaczek-wyświetlania-planszy]
+
+rozmiar planszy podany w ilości linii
+odstęp czasowy podany w milisekundach
+
+jeśli jako ścieżkę do pliku poda się: STDIN
+program będzie oczekiwał na podanie planszy na standardowe wejście
+
+znaczek wyświetlania jest opcjonalny
+
+Plansza to plik w którym każdy znak widzialny jest uznawany za komórkę żyjącą, a każda spacja za martwą
+
+Jeśli plansza w pliku jest mniejsza od podanego rozmiaru zostanie uzupełniona martwymi komórkami
+
+Jeśli jest większa zostanie obcięta do odpowiedniego rozmiaru
